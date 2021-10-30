@@ -1,0 +1,27 @@
+body {
+  font-family: "Lucida Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-right: 15px;
+  font-size: 1rem;
+
+  text-align: -webkit-match-parent;
+}
+
+nav {
+  background-color: whitesmoke;
+  color: rgb(4, 5, 5);
+}
+.img {
+  height: 80px;
+  width: 100%;
+}
