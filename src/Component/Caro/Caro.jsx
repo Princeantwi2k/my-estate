@@ -49,7 +49,7 @@ class Caro extends Component {
   render() {
     return (
       <>
-        <div className=".container">
+        <div className="container">
           <div className="row">
             <div className="col-md-8 ">
               <Carousel className="cal">
@@ -276,8 +276,7 @@ class Caro extends Component {
               <div className="iframe">
                 <h5 className="titles"> Development Video </h5>
                 <iframe
-                  width="700"
-                  height="315"
+                  className="iframe"
                   src="https://www.youtube.com/embed/3mr2nSUqckM"
                   title="YouTube video player"
                   frameborder="0"

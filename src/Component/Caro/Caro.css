@@ -10,6 +10,10 @@
   background-color: black;
   color: white;
 }
+.iframe {
+  width: 700px;
+  height: 315px;
+}
 .cal {
   margin-top: 30px;
   margin-left: 30px;
@@ -77,4 +81,44 @@
 .picture {
   margin-top: 10%;
   width: 85%;
+}
+@media screen and (max-width: 480px) {
+  .iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .title {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  .contact {
+    margin-top: 10%;
+    margin-left: 9%;
+    background-color: rgb(32, 32, 75);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .class-form {
+    margin-top: 15%;
+    margin-left: 10%;
+    background-color: blanchedalmond;
+  }
+  .picture {
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 85%;
+  }
+  .titles {
+    text-align: center;
+    font-weight: bolder;
+  }
+  .p {
+    text-align: center;
+  }
+  .page {
+    text-align: center;
+  }
 }
