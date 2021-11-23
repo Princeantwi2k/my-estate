@@ -38,7 +38,6 @@ class Caro extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.props.NewUser(this.state);
     this.setState({
       name: "",
       email: "",
@@ -49,7 +48,7 @@ class Caro extends Component {
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container hotel">
           <div className="row">
             <div className="col-md-8 ">
               <Carousel className="cal">
@@ -59,10 +58,9 @@ class Caro extends Component {
                 </h5>
                 <Carousel.Item interval={1000}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 caro"
                     src={img}
                     alt="First slide"
-                    className="caro"
                   />
                   <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -73,10 +71,9 @@ class Caro extends Component {
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 caro"
                     src={img1}
                     alt="Second slide"
-                    className="caro"
                   />
                   <Carousel.Caption>
                     <h3>Second slide label</h3>
@@ -87,10 +84,9 @@ class Caro extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 caro"
                     src={img2}
                     alt="Third slide"
-                    className="caro"
                   />
                   <Carousel.Caption>
                     <h3>Third slide label</h3>
@@ -102,10 +98,9 @@ class Caro extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 caro"
                     src={img3}
                     alt="Third slide"
-                    className="caro"
                   />
                   <Carousel.Caption>
                     <h3>Third slide label</h3>
@@ -117,10 +112,9 @@ class Caro extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 caro"
                     src={img4}
                     alt="Third slide"
-                    className="caro"
                   />
                   <Carousel.Caption>
                     <h3>Third slide label</h3>

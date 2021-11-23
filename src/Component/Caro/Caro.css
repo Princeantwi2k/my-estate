@@ -4,6 +4,9 @@
   margin: 0px;
   padding: 0px;
 }
+.hotel {
+  margin-top: 10px;
+}
 .prep {
   margin: 0%;
   padding: 3%;
@@ -36,11 +39,11 @@
 }
 .iframe {
   margin-left: 30px;
+  margin-bottom: 40px;
 }
 .class-form {
   margin-top: 10%;
   background-color: blanchedalmond;
-  margin-right: 20%;
 }
 .social {
   padding: 10px;
