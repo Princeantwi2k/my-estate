@@ -1,5 +1,7 @@
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 import "./Home.css";
 const Home = () => {
   return (
@@ -10,7 +12,11 @@ const Home = () => {
             <h2>Lifestyle Estate</h2>
 
             <h3 className="see">
-              <Button variant="danger">Contact Us!</Button>
+              <Button variant="danger">
+                <Link to="/about" className="link">
+                  About us
+                </Link>
+              </Button>
             </h3>
           </div>
         </Row>

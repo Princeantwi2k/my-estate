@@ -20,13 +20,17 @@ h2 {
 h3 {
   text-align: center;
 }
+.link {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 480px) {
   .home {
     width: 100%;
     background-image: url("../../images/image2.jpg");
     background-blend-mode: overlay;
 
-    height: 700px;
+    height: 900px;
     color: white;
   }
 }
