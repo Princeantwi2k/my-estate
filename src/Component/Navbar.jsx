@@ -8,19 +8,6 @@ const Navbar = () => {
       <div class="navbar-header">
         <img src={pic1} alt="pic" className="img" />
       </div>
-
-      <ul>
-        <li>
-          <Link to="/" class="active" id="day">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" class="active">
-            About us
-          </Link>
-        </li>
-      </ul>
     </nav>
   );
 };
