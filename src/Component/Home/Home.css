@@ -39,6 +39,11 @@ h3 {
     justify-content: center;
     color: white;
   }
+  .ck {
+    margin-top: 100px;
+    height: 377px;
+    padding-left: 350px;
+  }
   h3 {
     justify-content: center;
     text-align: center;
