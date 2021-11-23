@@ -29,7 +29,7 @@ h3 {
     width: 100%;
     background-image: url("../../images/image2.jpg");
     background-blend-mode: overlay;
-    overflow: hidden;
+
     height: 900px;
     color: white;
   }
