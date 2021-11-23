@@ -33,4 +33,14 @@ h3 {
     height: 900px;
     color: white;
   }
+  h2 {
+    text-align: center;
+    padding-top: 200px;
+    justify-content: center;
+    color: white;
+  }
+  h3 {
+    justify-content: center;
+    text-align: center;
+  }
 }
