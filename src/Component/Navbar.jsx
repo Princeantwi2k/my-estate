@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import pic1 from "../images/r.png";
-import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav class="navbar navbar-default navbar-jo fixed-top" sm={6} md={12}>
