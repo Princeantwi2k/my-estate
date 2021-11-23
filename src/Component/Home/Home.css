@@ -35,13 +35,14 @@ h3 {
   }
   h2 {
     text-align: center;
-
+    padding-top: 200px;
     justify-content: center;
     color: white;
   }
   .ck {
     margin-top: 100px;
     height: 377px;
+    padding-left: 50px;
   }
   h3 {
     justify-content: center;
